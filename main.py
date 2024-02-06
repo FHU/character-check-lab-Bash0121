@@ -2,7 +2,7 @@
 def check_character(word, index):
    word_chracter=word[index]
    
-   whitespace=" "
+   whitespace=""
    string=word_chracter.isalpha()
    numbers=('1', '2', '4', '5', '6', '7', '8', '9')
 
