@@ -7,8 +7,8 @@ def check_character(word, index):
          print("Letter")
       elif word==" ":
          print("White Space")
-      '''else:
-         print("unknown")'''
+      else:
+         print("unknown")
    return
 if __name__ == '__main__': 
     print(check_character('happy birthday', 2))
