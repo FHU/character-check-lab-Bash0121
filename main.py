@@ -11,7 +11,7 @@ def check_character(word, index):
          return "digit"
    elif string==True:
          return "letter"
-   elif word_chracter in whitespace
+   elif word_chracter in whitespace:
          return "white space"
    else:
          return "unknown"
